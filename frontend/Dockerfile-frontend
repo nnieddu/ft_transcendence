@@ -1,0 +1,11 @@
+FROM node:18-alpine3.16
+
+WORKDIR /app_frontend
+ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
+ENV PATH=$PATH:/home/node/.npm-global/bin
+RUN apk update && apk add bash nginx
+RUN npm i -g @nestjs/cli
+EXPOSE 3005:3005
+EXPOSE 443:443
+
+ENTRYPOINT /bin/sh /app_frontend/entrypoint.sh
