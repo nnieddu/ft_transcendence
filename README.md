@@ -3,7 +3,8 @@
 Ce projet consiste à créer un site web pour participer à une compétition du célèbre jeu Pong.  
 Il a été réalisé avec :  
 [M-Philippe](https://github.com/M-Philippe/) et [vrdbettoni](https://github.com/vrdbettoni), repo original du projet :   
-- https://github.com/M-Philippe/ft_transcendence   
+https://github.com/M-Philippe/ft_transcendence  
+
 ### bases
 • Le backend est écrit en NestJS.
 • Le frontend est réalisé avec le framework React en TypeScript.
